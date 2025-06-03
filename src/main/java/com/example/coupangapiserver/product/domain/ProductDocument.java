@@ -94,4 +94,16 @@ public class ProductDocument {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    @Override
+    public String toString() {
+        return "ProductDocument{" +
+            "id='" + id + '\'' +
+            ", name='" + name + '\'' +
+            ", description='" + description + '\'' +
+            ", price=" + price +
+            ", rating=" + rating +
+            ", category='" + category + '\'' +
+            '}';
+    }
 }
